@@ -1,4 +1,9 @@
-# SNS_CEA
-Designed a Voice Encryptor and decryptor in GUI, which encrypts the signal voice exploiting signal properties like time flipping, shifting, scaling etc it is reversible so that original voice can be recovered later.
+The project involved designing a Voice Encryptor and Decryptor with Graphical User Interface (GUI) using MATLAB. The aim of the project was to encrypt voice signals using signal processing techniques and then decrypt it back to its original form. The encryption was done by exploiting signal properties like time flipping, shifting, scaling, and so on.
 
+To achieve this, the project used a combination of signal processing and encryption techniques. The voice signals were first sampled and digitized, and then different signal processing techniques were applied to the digitized voice signals. These techniques involved time-domain operations like time scaling, time flipping, and time shifting. The processed signals were then encrypted using a key-based algorithm.
 
+The encrypted voice signals were then stored or transmitted securely. To decrypt the signals, the reverse operations of the encryption algorithm were performed in the decryption process. This process involved applying the inverse of the time-domain operations performed during the encryption process. The decrypted voice signals were then reconstructed to their original form using signal reconstruction techniques.
+
+The project also included a GUI interface, which made it easier for users to encrypt and decrypt voice signals. The GUI allowed users to input their voice signals and specify the encryption key. The GUI also provided a visual representation of the signal processing and encryption techniques being applied to the voice signals. Once the encryption was done, the encrypted voice signal was displayed, and the user could then save or transmit the encrypted signal.
+
+Overall, the Voice Encryptor and Decryptor project using MATLAB provided a secure way to encrypt voice signals and transmit them over a communication channel without the risk of interception.
